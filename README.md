@@ -15,14 +15,6 @@ CSC-487 Introduction to Data Science, Assignment 2 (Complex Computing Problem), 
 
 Transparent, reproducible churn analysis with two baseline classifiers (Logistic Regression, K-Nearest Neighbors) evaluated on a held-out test set with confusion matrix, precision, recall, F1, ROC-AUC and PR-AUC.
 
-## Project Links
-| Resource | Link |
-|---|---|
-| Dataset (Kaggle) | https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
-| Notebook (Kaggle) | [PASTE KAGGLE NOTEBOOK LINK] |
-| Demo video (3-5 min) | [PASTE VIDEO LINK] |
-| Report | Submitted as PDF on LMS |
-
 ## Dataset
 IBM *Telco Customer Churn* sample dataset (7,043 customers, 21 columns, target `Churn`).
 * Source used by the notebook: https://github.com/IBM/telco-customer-churn-on-icp4d (`data/Telco-Customer-Churn.csv`)
