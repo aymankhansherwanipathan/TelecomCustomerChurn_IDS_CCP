@@ -15,6 +15,14 @@ CSC-487 Introduction to Data Science, Assignment 2 (Complex Computing Problem), 
 
 Transparent, reproducible churn analysis with two baseline classifiers (Logistic Regression, K-Nearest Neighbors) evaluated on a held-out test set with confusion matrix, precision, recall, F1, ROC-AUC and PR-AUC.
 
+## Project Links
+| Resource | Link |
+|---|---|
+| Dataset (Kaggle) | https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
+| Notebook (Kaggle) | [PASTE KAGGLE NOTEBOOK LINK] |
+| Demo video (3-5 min) | [PASTE VIDEO LINK] |
+| Report | Submitted as PDF on LMS |
+
 ## Dataset
 IBM *Telco Customer Churn* sample dataset (7,043 customers, 21 columns, target `Churn`).
 * Source used by the notebook: https://github.com/IBM/telco-customer-churn-on-icp4d (`data/Telco-Customer-Churn.csv`)
@@ -32,17 +40,17 @@ curl -L -o data/telco.csv https://raw.githubusercontent.com/IBM/telco-customer-c
 ```bash
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook churn_analysis.ipynb                   # Run All
+jupyter notebook ids_ccp.ipynb                   # Run All
 # or headless:
-jupyter nbconvert --to notebook --execute churn_analysis.ipynb --output churn_analysis.ipynb
+jupyter nbconvert --to notebook --execute ids_ccp.ipynb --output ids_ccp.ipynb
 ```
-Google Colab also works: upload `churn_analysis.ipynb` and run all cells (internet access needed for the download).
+Google Colab also works: upload `ids_ccp.ipynb` and run all cells (internet access needed for the download).
 Everything is seeded (`random_state=42`), so results are reproducible.
 
 ## Repository layout
 | Path | Content |
 |---|---|
-| `churn_analysis.ipynb` | Full pipeline: audit, cleaning, EDA, preprocessing, models, evaluation, recommendation |
+| `ids_ccp.ipynb` | Full pipeline: audit, cleaning, EDA, preprocessing, models, evaluation, recommendation |
 | `figures/` | All generated plots (fig0 workflow, fig1-fig11) |
 | `outputs/` | CSV/JSON tables (model comparison, treatments, feature selection, K search, bootstrap CIs, cost analysis) |
 | `requirements.txt` | Python dependencies |
