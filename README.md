@@ -19,7 +19,7 @@ Transparent, reproducible churn analysis with two baseline classifiers (Logistic
 | Resource | Link |
 |---|---|
 | Dataset (Kaggle) | https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
-| Notebook (Kaggle) | [PASTE KAGGLE NOTEBOOK LINK] |
+| Notebook (Kaggle) | https://www.kaggle.com/code/aymankhan024/ids-ccp |
 | Demo video (3-5 min) | [PASTE VIDEO LINK] |
 | Report | as PDF |
 
