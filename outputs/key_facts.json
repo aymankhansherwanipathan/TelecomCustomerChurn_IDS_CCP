@@ -1,0 +1,30 @@
+{
+  "rows": 7043,
+  "churn_rate": 0.2653698707936959,
+  "K_BEST": 81,
+  "chosen_features": [
+    "tenure",
+    "MonthlyCharges",
+    "Contract",
+    "InternetService",
+    "PaymentMethod",
+    "PaperlessBilling",
+    "OnlineSecurity",
+    "Dependents",
+    "TechSupport",
+    "Partner",
+    "SeniorCitizen",
+    "OnlineBackup",
+    "StreamingTV",
+    "StreamingMovies",
+    "DeviceProtection",
+    "MultipleLines"
+  ],
+  "dropped_cat": [
+    "gender",
+    "PhoneService"
+  ],
+  "test_overlap_share": 0.009226401703335699,
+  "n_train": 5634,
+  "n_test": 1409
+}
