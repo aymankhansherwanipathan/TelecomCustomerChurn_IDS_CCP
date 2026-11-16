@@ -21,7 +21,7 @@ Transparent, reproducible churn analysis with two baseline classifiers (Logistic
 | Dataset (Kaggle) | https://www.kaggle.com/datasets/blastchar/telco-customer-churn |
 | Notebook (Kaggle) | [PASTE KAGGLE NOTEBOOK LINK] |
 | Demo video (3-5 min) | [PASTE VIDEO LINK] |
-| Report | Submitted as PDF on LMS |
+| Report | as PDF |
 
 ## Dataset
 IBM *Telco Customer Churn* sample dataset (7,043 customers, 21 columns, target `Churn`).
